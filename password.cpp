@@ -66,11 +66,11 @@ int main()
   cout<<"Would you like to save this password on a json file? (y/n):"<<endl;
   char answer;
   cin>>answer;
-  if(answer=='y')
+  if(answer=='y'||'Y')
   {
-    ofstream save("passwords.json");
+    ofstream save("passwords.txt");
     save<<password;
-  } else if(answer=='n')
+  } else if(answer=='n'||'N')
   {
     return 0;
   } else 
