@@ -9,6 +9,8 @@ using namespace std;
 
 int main()
 {
+  system("clear");    
+
   if(sodium_init()<0)
   {
     cerr<<"Sodium init did not work\n";
@@ -63,7 +65,7 @@ int main()
   cout<<"\n";
   cout<<"\n";
 
-  cout<<"Would you like to save this password on a json file? (y/n):"<<endl;
+  cout<<"Would you like to save this password on a text file? (y/n):"<<endl;
   char answer;
   cin>>answer;
   if(answer=='y'||'Y')
