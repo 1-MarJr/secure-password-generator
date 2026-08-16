@@ -63,7 +63,7 @@ int main()
   cout<<"\n";
   cout<<"\n";
 
-  cout<<"Would you like to save this password on a json file? (y/n):"<<endl;
+  cout<<"Would you like to save this password on a .txt file? (y/n):"<<endl;
   char answer;
   cin>>answer;
   if(answer=='y'||'Y')
